@@ -1,0 +1,64 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="hydra-web:war exploded">
+    <output-path>$PROJECT_DIR$/modules/hydra-web/target/hydra-web</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="hydra-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="hydra-hbase-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="hydra-hbase" />
+          </element>
+          <element id="archive" name="hydra-interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="hydra-interface" />
+          </element>
+          <element id="archive" name="hydra-store-interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="hydra-store-interface" />
+          </element>
+          <element id="library" level="project" name="Maven: com.google.collections:google-collections:1.0" />
+          <element id="library" level="project" name="Maven: org.apache.hadoop:hadoop-common:bdp-2.0.0-cdh4.1.1" />
+          <element id="library" level="project" name="Maven: org.apache.hbase:hbase:bdp-0.92.1-cdh4.1.1" />
+          <element id="library" level="project" name="Maven: commons-configuration:commons-configuration:1.9" />
+          <element id="archive" name="hydra-mysql-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="hydra-mysql" />
+          </element>
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.4" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.0.6" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.0.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.22" />
+          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid:0.2.17" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.15" />
+          <element id="archive" name="hydra-manager-db-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="hydra-manager-db" />
+          </element>
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-asm:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp.jstl:jstl-api:1.2" />
+          <element id="library" level="project" name="Maven: org.glassfish.web:jstl-impl:1.2" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.10" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.10" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-lgpl:1.9.10" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-lgpl:1.9.10" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.1.28" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/modules/hydra-web/target/hydra-web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="hydra-web/web/Web" />
+    </root>
+  </artifact>
+</component>

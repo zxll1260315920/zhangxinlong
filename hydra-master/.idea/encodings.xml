@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/hydra-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/hydra-collector" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/hydra-collector-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/hydra-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/hydra-example/hydra-example-exp1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/hydra-example/hydra-example-exp2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/hydra-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/hydra-manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/hydra-manager-db" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/hydra-store" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/hydra-store/hydra-hbase" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/hydra-store/hydra-mysql" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/hydra-store/hydra-store-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/hydra-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/hydra-test/hydra-test-benchmark" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/hydra-test/hydra-test-integration" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/hydra-test/hydra-test-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/hydra-web" charset="UTF-8" />
+  </component>
+</project>
